@@ -3,9 +3,9 @@ package com.Apriori_SP;
 import java.util.Arrays;
 
 public class Sequence {
-	private String[] elements;// ĞòÁĞ°üº¬µÄÔªËØ
-	private int length;// ĞòÁĞµÄ³¤¶È
-	private int count_sup; // Ö§³Ö¶È
+	private String[] elements;// åºåˆ—åŒ…å«çš„å…ƒç´ 
+	private int length;// åºåˆ—çš„é•¿åº¦
+	private int count_sup; // æ”¯æŒåº¦é˜ˆå€¼
 	public Sequence(String[] e){
 		super();
 		elements = Arrays.copyOfRange(e, 0, e.length);
@@ -20,7 +20,7 @@ public class Sequence {
 		return elements;
 	}
 	/**
-	 * ÅĞ¶ÏsÊÇ·ñÊÇµ±Ç°ĞòÁĞµÄ×ÓĞòÁĞ
+	 * åˆ¤æ–­sæ˜¯å¦æ˜¯å½“å‰åºåˆ—çš„å­åºåˆ—
 	 * @param s
 	 * @return
 	 */
