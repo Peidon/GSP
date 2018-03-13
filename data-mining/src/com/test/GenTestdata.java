@@ -17,7 +17,7 @@ public class GenTestdata {
 		HashSet<Integer> hs = null;
 		int r = 10000; //序列行数
 		for(;r > 0; r--){
-			int n = rand.nextInt(8) + 2; //序列个数
+			int n = rand.nextInt(8) + 2; //每行序列个数
 			hs = new HashSet<>();
 			for(; n > 0; n--){
 				hs.add(rand.nextInt(99) + 1);//序列取值范围
