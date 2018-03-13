@@ -15,12 +15,12 @@ public class GenTestdata {
 		StringBuffer s = new StringBuffer();
 		Random rand = new Random();
 		HashSet<Integer> hs = null;
-		int r = 10000; //ĞòÁĞĞĞÊı
+		int r = 10000; //åºåˆ—è¡Œæ•°
 		for(;r > 0; r--){
-			int n = rand.nextInt(8) + 2; //ĞòÁĞ¸öÊı
+			int n = rand.nextInt(8) + 2; //åºåˆ—ä¸ªæ•°
 			hs = new HashSet<>();
 			for(; n > 0; n--){
-				hs.add(rand.nextInt(99) + 1);//ĞòÁĞÈ¡Öµ·¶Î§
+				hs.add(rand.nextInt(99) + 1);//åºåˆ—å–å€¼èŒƒå›´
 			}
 			Iterator<Integer> i = hs.iterator();
 			while(i.hasNext()){
@@ -29,7 +29,7 @@ public class GenTestdata {
 			s.append("\n");
 		}
 		
-		String fileName = "E:\\test.txt";
+		String fileName = Filepath.test;
 		File file = new File(fileName);
 		Writer out;
 		try {
