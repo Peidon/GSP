@@ -1,5 +1,5 @@
-## 借鉴了A-Priori算法的序列模式挖掘
-Grab Sequence Pattern  
+Grab Sequence Pattern
+## 借鉴了A-Priori算法的序列模式挖掘  
   * Firstly, run _com.test.GenTestdata.java_, which generate the _test.txt_; _test.txt_ contains 10000 rows number Sequences.     
   * Secondly, run _com.test.Test.java_;
   * Then, you can see the results. 
